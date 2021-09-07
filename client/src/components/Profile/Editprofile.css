@@ -1,0 +1,36 @@
+.formContainercontent{
+    display: flex;
+}
+.userImagestyling{
+    margin-left: 37%;
+}
+
+.previewImage{
+    width: 42%;
+    height: 160px;
+    margin-bottom: 10px;
+    border-radius: 48%;
+
+}
+
+input[type='file']{
+    color: transparent;
+    margin-left: 28px;
+}
+.headingEdit{
+    margin-left: 46%;
+}
+.submitBtnEdit{
+    color: white;
+    background-color: rgb(230 ,0 ,35);
+    border-radius: 20px;
+    font-size: 19px;
+    height: 40px;
+    width: 84px;
+    border: none;
+    /* margin-left: -10%; */
+}
+.submitBtnEdit:hover{
+    background-color: rgb(194, 19, 54);
+    
+}

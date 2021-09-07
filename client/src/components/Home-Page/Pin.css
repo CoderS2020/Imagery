@@ -1,0 +1,99 @@
+:root {
+    --card_width: 250px;
+    --row_increment: 10px;
+    --card_border_radius: 16px;
+    --card_small: 26;
+    --card_medium: 33;
+    --card_large: 45;
+}
+
+.pin_containers1 {
+    margin: 0;
+    padding: 0;
+    width: 90vw;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: grid;
+    grid-template-columns: repeat(auto-fill, var(--card_width));
+    grid-auto-rows: var(--row_increment);
+    justify-content: center;
+    
+    /* background-color: black; */
+}
+
+.card {
+    padding: 0;
+    margin: 15px 10px;
+    border-radius: var(--card_border_radius);
+    background-color: red;
+    border: none;
+    
+}
+
+.card_small {
+    grid-row-end: span var(--card_small);
+}
+
+.card_medium {
+    grid-row-end: span var(--card_medium);
+}
+
+.card_large {
+    grid-row-end: span var(--card_large);
+}
+
+.img{
+    width: 90%;
+    height: 90%;
+}
+
+.btn{
+    position: relative;
+    left: -100px;
+    bottom: -24px;
+}
+
+.footerposition{
+    position: relative;
+    margin-top: 449%;
+}
+
+.footerexplore{
+    position: relative;
+    
+    margin-top: 13%;
+}
+
+.quotefooterposition{
+
+    margin-top: 240%;
+
+}
+.artfooterposition{
+    margin-top: 240%;
+
+}
+.photographyfooterposition{
+    margin-top: 240%;
+
+}
+
+.authorfooterposition{
+    margin-top: 240%;
+
+}
+.diyfooterposition{
+    margin-top: 240%;
+
+}
+
+.popularfooterposition{
+    margin-top: 293%;
+
+}
+
+.footerstucktoBottom{
+    position: relative;
+    bottom: 0;
+}

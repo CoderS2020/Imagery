@@ -1,0 +1,19 @@
+.termsFlex{
+    display: flex;
+}
+
+.termsBlock{
+    display: block;
+}
+
+.privacyParagraph{
+    margin-left: 12px;
+    margin-right: 17px;
+
+    text-align: justify;
+    
+}
+
+.termsofservice{
+    margin-left: 35%;
+}
