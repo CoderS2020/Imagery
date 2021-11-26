@@ -45,6 +45,9 @@ body {
   border-radius: 25px;
 }
 
+.display-4 {
+  font-family: "Poppins", sans-serif;
+}
 .part3 {
   margin-top: -8%;
   margin-right: 2%;
