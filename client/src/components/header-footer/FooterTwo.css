@@ -1,27 +1,23 @@
-.footerTwo{
-       
-       width: 100%;
-       background-color: crimson;
-       height: 35px;
-       display: flex;
-       justify-content: center;
-       align-items: center;
-       font-family: 'Roboto', sans-serif;
-       
-       
-} 
-.socialfooterTwo{
-    position: absolute;
-    right: 2%;
+.footerTwo {
+  width: 100%;
+  background-color: crimson;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+}
+.socialfooterTwo {
+  position: absolute;
+  right: 2%;
 }
 
 @media only screen and (max-width: 500px) {
-    .footerTwo{
-        height: 18%;
-    }
-    .socialfooterTwo{
-      
-        right: 4%;
-    }
-    
+  .footerTwo {
+    height: 18%;
+  }
+  .socialfooterTwo {
+    right: 4%;
+  }
 }
